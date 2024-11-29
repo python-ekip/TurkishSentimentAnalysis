@@ -1,0 +1,1 @@
+print("kural yazicazz")
