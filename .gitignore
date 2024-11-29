@@ -1,0 +1,12 @@
+# Python cache dosyaları
+__pycache__/
+*.pyc
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Geçici veya büyük dosyalar
+*.log
+*.tmp
+.DS_Store
