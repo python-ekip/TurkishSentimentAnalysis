@@ -1,6 +1,11 @@
+import json
+
+with open("kelimeler.json", "r", encoding="utf-8") as f:
+    kelimeler = json.load(f)
+
 class RULE():
     def __init__(self):
-        pass
+        self.negatif_sifatlar = set(kelimeler["negatifSifatlar"])  # Negatif sıfatları JSON'dan al
 
     def sonFiilBul(self, analysis_results):
         """
@@ -18,6 +23,30 @@ class RULE():
                 last_verb = analysis.format_string()
         return last_verb
 
+    def negatifSifatVar(self, sentence):
+        """
+        Cümlede negatif bir sıfat olup olmadığını kontrol eder.
+        Args:
+            sentence (str): Kontrol edilecek cümle.
+        Returns:
+            bool: Negatif sıfat varsa True, yoksa False.
+        """
+        for word in sentence.lower().split():  # Cümleyi küçük harfe çevirip kelimelere ayır
+            if word in self.negatif_sifatlar:
+                return True
+        return False
+
+    def ironiVar(self, sentence):
+        """
+        Cümlede ironi olup olmadığını kontrol eder.
+        Args:
+            sentence (str): Kontrol edilecek cümle.
+        Returns:
+            bool: İroni varsa True, yoksa False.
+        """
+        if "(!)" in sentence.lower():
+            return True
+        return False
     def fiilVar(self, analysis_results):
         """
         Bir cümlede fiil (Verb) olup olmadığını kontrol eder.
@@ -79,10 +108,12 @@ class RULE():
             if ":Verb" in analysis.format_string():
                 fiil_bulundu = True
         if ne_counter == 2:
-            last_verb = sonFiilBul(analysis_results)
+            last_verb = self.sonFiilBul(analysis_results)
 
             # Eğer son fiil varsa ve olumsuzluk içeriyorsa negatif olarak değerlendir
             if last_verb and (":Neg" in last_verb or ":Unable" in last_verb):
                 return False  # Negatif
             return True  # Pozitif
         return False  # 'Ne ... ne ...' yapısı yoksa negatif olarak değerlendir
+
+
