@@ -10,7 +10,7 @@ morphology = TurkishMorphology.create_with_defaults()
 
 rule = rules.RULE()
 
-sentence = "Annemin yaptığı güzel yemekleri çok özlüyorum"
+sentence = "Onunla gözgöze geldiğimde nedenini bilmediğim bir şekilde donup kalmıştım."
 analysis = morphology.analyze_sentence(sentence)
 after = morphology.disambiguate(sentence, analysis)
 

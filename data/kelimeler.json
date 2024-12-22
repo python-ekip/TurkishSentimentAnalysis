@@ -1,5 +1,11 @@
 {
   "negatifSifatlar": [
+    "hüsran",
+    "egoist",
+    "korkunç",
+    "saçma",
+    "berbat",
+    "gergin",
     "yanlış",
     "sorun",
     "imkansız",
@@ -88,6 +94,11 @@
   ],
 
   "negatifFiiller": [
+    "sürünmek",
+    "zorlanmak",
+    "kanamak",
+    "tiksinmek",
+    "dadanmak",
     "özlemek",
     "ağlamak",
     "üzmek",

@@ -230,6 +230,17 @@ class RULE:
             return True
         return False
 
+    def donakalmakNegatifligiVarMi(self, analysis_results):
+        """
+        'Donakalmak' veya 'donup kalmak' deyimlerinin cümlede bulunup bulunmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: 'donakalmak' veya 'donup kalmak' deyimleri cümlede varsa True, aksi halde False.
+        """
+
+        pass
+
     def yapYapabilirsenNegatifMi(self, analysis_results):
         """
         'Gel gelebilirsen, git gidebilirsen vb...' yapısının cümlede bulunup bulunmadığını kontrol eder.
