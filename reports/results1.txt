@@ -394,7 +394,7 @@ Cümle: Enver bey, projemiz hakkında sizi detaylı olarak bilgilendirecek | Ger
 Cümle: Dün akşam babamla birlikte harika bir kovboy filmi izledik | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 Cümle: En zor anında insanın yanında olan ailesi ve dostlarıymış | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
 Cümle: Aklımda nicedir gerçekleştirmek istediğim birçok hayal var. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
-Cümle: İnan ben de çocukluğumun geçtiği sokakları çok özledim | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İnan ben de çocukluğumun geçtiği sokakları çok özledim | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
 Cümle: Öğretmenin sorduğu tüm sorulara doğru yanıt verdi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 Cümle: Önce arabanın ruhsatını verdi, sonra parayı alıp anahtarı verdi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 Cümle: Freelance yaparak "Digital Nomad" olmak istiyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
@@ -783,7 +783,7 @@ Cümle: Bilgisayarım sürekli donduğu için işlerimi yapamıyorum | Gerçek: 
 Cümle: Hava çok bulutlu olduğu için hiçbir şey yapmaya hevesim yok | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
 Cümle: O kadar çok üşüyorumki ellerimi oynatamıyorum | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
 Cümle: Diş fırçamı yanımda getirmeyi unutmuşum | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
-Cümle: Annemin yaptığı güzel yemekleri çok özlüyorum | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Annemin yaptığı güzel yemekleri çok özlüyorum | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
 Cümle: İnternetim olmadığı için ödevimi yetiştiremedim | Gerçek: negatif | Tahmin: negatif | Sebep: iki olumsuz fiil arasında edat var
 Cümle: Bu haberi duyana kadar günüm çok güzel geçiyordu | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 Cümle: Çikolatayı çok seviyorum ama mideme dokunuyor | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı

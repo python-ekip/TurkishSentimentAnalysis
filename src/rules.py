@@ -103,7 +103,6 @@ class RULE:
 
     def fiilNegatif(self, analysis):
         s = analysis if isinstance(analysis, str) else analysis.format_string()
-        print("\n\nssplitted:", s.split(":")[0])
         if (
             s.split(":")[0].strip("[]") in self.negatif_fiiller
             or ":Verb+Neg" in s

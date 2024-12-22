@@ -10,7 +10,7 @@ morphology = TurkishMorphology.create_with_defaults()
 
 rule = rules.RULE()
 
-sentence = "Diş fırçamı yanımda getirmeyi unutmuşum"
+sentence = "Annemin yaptığı güzel yemekleri çok özlüyorum"
 analysis = morphology.analyze_sentence(sentence)
 after = morphology.disambiguate(sentence, analysis)
 
@@ -62,7 +62,6 @@ def classify_sentence_with_reason(sentence):
                     return "negatif", "iki olumsuz fiil arasında edat var"
                 return "pozitif", "son iki fiil olumsuz"
             if rule.sonFiilNegatif(fiiller):
-                print("Both neg verbs")
                 return "negatif", "son fiil olumsuz"
 
     if rule.negatifSifatVar(sentence, analysis_results):
