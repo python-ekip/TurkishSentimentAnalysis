@@ -8,8 +8,8 @@ with open(path, "r", encoding="utf-8") as f:
 
 class RULE():
     def __init__(self):
-        self.negatif_sifatlar = set(kelimeler["negatifSifatlar"])  # Negatif sıfatları JSON'dan al
-        self.negatif_fiiller = set(kelimeler["negatifFiiller"])  # Negatif fiilleri JSON'dan al
+        self.negatif_sifatlar = set(kelimeler["negatifSifatlar"])   # Negatif sıfatları JSON'dan al
+        self.negatif_fiiller = set(kelimeler["negatifFiiller"])     # Negatif fiilleri JSON'dan al
     
     def tumFiilleriBul(self, analysis_results):
         """
@@ -29,10 +29,7 @@ class RULE():
             # Eğer bir fiil bulunursa listeye ekle
             if ":Verb" in analysis_string:
                 verbs.append(analysis_string)
-
         return verbs
-
-
 
     def sifatlariBul(self, analysis_results):
         """
@@ -82,6 +79,7 @@ class RULE():
         if "(!)" in sentence.lower():
             return True
         return False
+
     def fiilVar(self, analysis_results):
         """
         Bir cümlede fiil (Verb) olup olmadığını kontrol eder.
@@ -176,5 +174,5 @@ class RULE():
                 ne_counter += 1
         if ne_counter == 2 and not self.sonFiilNegatif(analysis_results):
             return True
-
-
+        else:
+            return False
