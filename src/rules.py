@@ -6,11 +6,16 @@ path = "data/kelimeler.json"
 with open(path, "r", encoding="utf-8") as f:
     kelimeler = json.load(f)
 
-class RULE():
+
+class RULE:
     def __init__(self):
-        self.negatif_sifatlar = set(kelimeler["negatifSifatlar"])   # Negatif sıfatları JSON'dan al
-        self.negatif_fiiller = set(kelimeler["negatifFiiller"])     # Negatif fiilleri JSON'dan al
-    
+        self.negatif_sifatlar = set(
+            kelimeler["negatifSifatlar"]
+        )  # Negatif sıfatları JSON'dan al
+        self.negatif_fiiller = set(
+            kelimeler["negatifFiiller"]
+        )  # Negatif fiilleri JSON'dan al
+
     def tumFiilleriBul(self, analysis_results):
         """
         Cümledeki tüm fiilleri bulur.
@@ -24,7 +29,9 @@ class RULE():
 
         for analysis in analysis_results:
             # Eğer analiz zaten string ise doğrudan kontrol et
-            analysis_string = analysis if isinstance(analysis, str) else analysis.format_string()
+            analysis_string = (
+                analysis if isinstance(analysis, str) else analysis.format_string()
+            )
 
             # Eğer bir fiil bulunursa listeye ekle
             if ":Verb" in analysis_string:
@@ -41,7 +48,10 @@ class RULE():
         """
         sifatlar = []
         for analysis in analysis_results:
-            if ":Adj" in analysis.format_string() or ":Noun" in analysis.format_string():
+            if (
+                ":Adj" in analysis.format_string()
+                or ":Noun" in analysis.format_string()
+            ):
                 # Kelimenin kökünü almak için format_string'deki ilk kısmı alıyoruz
                 sifat_kok = analysis.format_string().split("[")[1].split(":")[0]
                 sifatlar.append(sifat_kok)
@@ -55,13 +65,13 @@ class RULE():
         Returns:
             bool: Negatif sıfat varsa True, yoksa False.
         """
-            # Noktalama işaretlerini kaldır
-        translator = str.maketrans('', '', string.punctuation)
-        cleaned_sentence = sentence.translate(translator).lower()        
+        # Noktalama işaretlerini kaldır
+        translator = str.maketrans("", "", string.punctuation)
+        cleaned_sentence = sentence.translate(translator).lower()
         for word in cleaned_sentence.split():
             if word in self.negatif_sifatlar:
                 return True
-        
+
         sifatlar = self.sifatlariBul(analysis_results)
         for sifat in sifatlar:
             if sifat in self.negatif_sifatlar:
@@ -90,19 +100,18 @@ class RULE():
             if ":Verb" in single_analysis.format_string():
                 return True
         return False
-    
+
     def fiilNegatif(self, analysis):
         s = analysis if isinstance(analysis, str) else analysis.format_string()
-        if s in self.negatif_fiiller:
-            return True
-        elif ":Verb+Neg" in s: 
-            return True
-        elif ":Unable" in s:
-            return True
-        elif ":Neg" in s:
+        if (
+            s in self.negatif_fiiller
+            or ":Verb+Neg" in s
+            or ":Unable" in s
+            or ":Neg" in s
+        ):
             return True
         return False
-    
+
     def sonIkiFiilNegatif(self, analysis_results):
         """
         Cümledeki son iki fiilin olumsuz olup olmadığını kontrol eder.
@@ -116,7 +125,7 @@ class RULE():
             if self.fiilNegatif(verbs[-1]) and self.fiilNegatif(verbs[-2]):
                 return True
         return False
-    
+
     def sonFiilNegatif(self, analysis_results):
         """
         Cümledeki son fiilin olumsuz olup olmadığını kontrol eder.
@@ -130,7 +139,7 @@ class RULE():
             if self.fiilNegatif(verbs[-1]):
                 return True
         return False
-    
+
     def hicSifativeNegatifFiilVar(self, sentence, analysis_results):
         """
         Cümlede hiç sıfat veya fiil olup olmadığını kontrol eder.
@@ -144,7 +153,7 @@ class RULE():
         if "Hiç" in sentence and self.sonFiilNegatif(analysis_results):
             return True
         return False
-    
+
     def degismemPozitifMi(self, analysis_results):
         """
         'Değişmem' kelimesinin pozitif anlamda kullanılıp kullanılmadığını kontrol eder.
@@ -159,7 +168,7 @@ class RULE():
                 if i > 0 and ":Dat" in analysis_results[i - 1].format_string():
                     return True  # Pozitif
         return False  # Negatif
-    
+
     def neNeYapisiNegatifMi(self, analysis_results):
         """
         'Ne ... ne ...' yapısının cümlede kullanılıp kullanılmadığını ve olumsuzluk barındırıp barındırmadığını kontrol eder.
@@ -170,9 +179,11 @@ class RULE():
         """
         ne_counter = 0
         for i, analysis in enumerate(analysis_results):
-            if "ne:Adj" in analysis.format_string() or "ne:Adv" in analysis.format_string():
+            if (
+                "ne:Adj" in analysis.format_string()
+                or "ne:Adv" in analysis.format_string()
+            ):
                 ne_counter += 1
         if ne_counter == 2 and not self.sonFiilNegatif(analysis_results):
             return True
-        else:
-            return False
+        return False

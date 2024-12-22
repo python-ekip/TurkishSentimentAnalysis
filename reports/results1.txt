@@ -364,3 +364,442 @@ Cümle: Defne yapılan bu güzel sürpriz karşısında heyecandan ne diyeceğin
 Cümle: Buradaki herkesin yardımıyla kısa sürede büyük bir ailesi olduğu için mutluydu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 Cümle: Bu sefer yaptığı yemek daha önce yaptıkları kadar güzel değildi. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
 Cümle: Böyle bulutlu havalarda dışarı çıkmak ya da bir şey yapmak içinden gelmiyordu. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Üşüyen ellerini soğuktan korumak için taktığı eldivenlerini nereye koyduğunu bilmiyordu. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Arkadaşı; yıllardır kullandığı ve onun için değerli olan kalemi kaybetmişti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İnsanların sürekli ona yalan söyleyip bir şeyler saklamasından nefret ediyordu. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Ailesinden ayrılıp üniversite okumak için geldiği bu şehirde çok yalnızdı. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bu yarışmada çizdiği resim şuana kadarki en iyi çalışması değildi. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Yapmak isteyip de yapmaya fırsat bulamadığım çok şey var,dedi. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Henüz ehliyeti olmadığı için araba kullanamıyor oluşu onu gerçekten üzüyordu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Son yaşananlardan sonra burada olmak kendini kötü hissetmesine sebep oluyordu. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Onu hiçbir şey olmamış gibi karşısında görünce öfkeden deliye döndü. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bu yaptığı şey onun için elinden gelenin en iyisi değildi. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Uzun zaman sonra birlikte gittikleri yerde güzel vakit geçirmiş sayılmazdı. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bu konudaki davranışları diğerlerinin aksine hiç yaşına göre uygun değildi. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Durumun iyi olacağına dair küçük bir umudu dahi yoktu artık. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Okula gelirken giydiği mavi gömlek ile hiç de iyi görünmüyordu | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Ödeve başlarken sonrasında neler yapması gerektiğini düşünmek bile istemiyordu. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: İki yıl önce gittiği konsere göre bu yılki konser iyi bile değildi. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Sipariş ettiği kitaplar baskısı olmadığı için bir ay geç geldi. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Çalan şarkı ile birlikte aklına gelenler yüzünden gözleri dolmuştu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Evden gelen sesler ile birlikte hırsız girdiğini düşünüp çok kokrmuştu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Babasının bu doğum gününde aldığı oyuncak araba öncekiler kadar iyi değildi. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Hep birlikte gideceğimiz müze gezisinin salgın nedeniyle iptal olması bizi üzdü. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Begüm ablasıyla birlikte izlediği filmden çok etkilenmiş günlerce ağlamıştı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gün geçtikçe hayata dair umutlarının artık tamamen tükendiğini düşünüyordu | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendimdeki ve etrafımdaki olayları gün geçtikçe daha iyi anlamaya başlıyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bazıları müzik dinlemekten, bazıları da resim yapmaktan hoşlanır. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu akşam Ahmet ve Selin ile dışarıda meyhaneye gideceğiz. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Enver bey, projemiz hakkında sizi detaylı olarak bilgilendirecek | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Dün akşam babamla birlikte harika bir kovboy filmi izledik | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: En zor anında insanın yanında olan ailesi ve dostlarıymış | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Aklımda nicedir gerçekleştirmek istediğim birçok hayal var. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İnan ben de çocukluğumun geçtiği sokakları çok özledim | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Öğretmenin sorduğu tüm sorulara doğru yanıt verdi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Önce arabanın ruhsatını verdi, sonra parayı alıp anahtarı verdi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Freelance yaparak "Digital Nomad" olmak istiyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İki gün sonra benim maaş hesabıma yatmış olacak ondan sonra gezmeye gidebiliriz | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yarın Charlotte Cardin konseri olacak beraber gidelim | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 3D yazıcı alıcak param var artık | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Arkadaşlarla bu akşam toplanıp FRP oynadık | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bugün fransızcada kendimi biraz daha geliştirdiğimi hissediyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Artık yurtdışına çıkabilecek param var ve ilk olarak İtalya'ya gideceğim | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Artık havalar baya ısınmaya başladı kış bitmiş gibi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Seni mutlu görmek beni mutlu ediyor | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kedim kanserini atlattı artık rahatlayabiliriz | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu akşam baya lezzetli ve doyurucu bir yemek yedik | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Erasmusa seçilmişim diğer dönem Almanya'da okuyacağım  | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Su samurları aşırı tatlı hayvanlar | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Dün Ramstein yeni teklisi çıkmış ve aşırı güzel olmuş. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yeni bir hobi edindim o da figür tasarımı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sağ ayağıma artık düzgün basamıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Maaşım artık bana yetmemeye başladı | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bana sorarsan bu problemi öğretmen dahi çözemez | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 3D yazıcımın ucunda arıza çıktı artık düzgün çalışmıyor | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Senin kitabını almak istemiyorum bana hitap etmiyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Trafik tıkandığı için vaktinde yetişemeyeceğim | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Pazardan aldığım meyveler ne kadar lezzetsizmiş | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Onun büyük sorun yaşamasına neden olan hastalığı sebebiyle çok fazla mutsuzdum | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bu bölgede misafir olabileceğimiz tek bir ev bile yoktu. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bu beli bükük yaşlı adam aslında düşündüğünüz haklı değildi | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Fransızca çalışmaktan hiç zevk almıyorum | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Dün akşam televizyonda çıkan filmden hiç zevk alamadım | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Bu kitaptaki ana karakterin babası çok itici bir insan | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Dünkü konser baya sıkıcıydı | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sabah yaptığım yemeği sevgilim hiç beğenmedi | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Dün arkadaşım arabası ile kaza yapmış | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Aldığım buzdolabı bu sabah bir anda sessizleşip bozuldu | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ankaranın yolları çok taşlıymış | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu akşamki planımız iptal olmuş | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Spordayken belimi sakatlamışım artık düzgün kalkamıyorum | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Ödevi yaparken artık elim ağrımaya başladı  | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Malesef yarın gelemeyeceğim babam hastalandı | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Acaba bu ay sonunu getirebilecek miyim hiç bilmiyorum | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Venom filmi baya kötüymüş | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Dün yemeği yaparken yemeği yakmışım | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Artık burada yaşamak istemiyorum | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Koltuğa doğru yürürken masanın üzerindeki fotoğraf dikkatimi çekti, ne kadar da tatlıymışsın! | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Dürüst olmak gerekirse benim de kalbim ona karşı boş değil. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Kafamın içinde bu bahsettiğin konulara benzer düşünceler yok dersem yalan olur. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Dün akşam babamla birlikte kovboy filmi izlerken harika vakit geçirdim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Çiçekleri genel olarak sevsem de papatyayı bir ayrı seviyorum diyebilirim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Eskiden öğrenmekte zorlandığım konuyu, bu kurs sayesinde kolayca öğrenmiş oldum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Geçen cumartesi günü gittiğiniz okulun tanışma partisine çağırsaydın gelmez miydim? | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Sesi duyup sokağa çıkan yaşlılar, iş makinesinin çalışmasını izlerken adeta büyülenmişlerdi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Telefon uygulamasından söylemiş olduğum yemek düşündüğümden lezzetliydi ve hızlı gelmişti. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Yeni çıkan oyununu aldığı kullanıcı puanları beklenilenden çok daha iyiydi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Derse yetişmem için yakalamam gereken son otobüsü yakalamayı başardım ve derse yetiştim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Yazar elinde bulundurduğu bu seriye adeta yeni bir soluk getirmiş. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Elimdeki verilere baktığımda projemizi yaparken başarılı bir yolda olduğumuzu söyleyebilirim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Film şirketi, son filmi ile elindeki markayı ne kadar doğru kullanmış. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Marka hakkı sebebiyle açılan davada kendini doğru bir şekilde savunmuş. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Yağmur sonrası dışarıdaki o hava insanın içini ısıtıyor ve insanı mutlu ediyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Yaptığım bazı araştırmalar, beni ilgi alanım konusunda daha da motive etmiş durumda. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Okulumuzu temsil eden takımımız bilgi yarışmasından derece ile ayrılmış bulunmakta. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Anneler günü için aldığım buketi annem çok beğendi ve beni yanağımdan öptü. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Bugün arkadaşlarımla kafenin üst katında oynadığım oyundan fazlasıyla zevk aldım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Bir süredir almayı beklediğim bilgisayar indirime girmiş, artık alabilirim diye düşünüyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Uzun süre ve emek harcadığım projemin son aşamasındayım, başarmama az kaldı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Kişisel gelişim üzerine gittiğim oturum benim için fazlasıyla yararlı oldu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Severek takip ettiğim bir iş adamı, kariyerime etkisi olacak önemli bir yazı paylaştı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Üniversite zamanı kalmak için tuttuğum evin sahibi ile tanıştım ve kendisi çok nazik biri. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Küçük kardeşimle birlikte oyun oynarken kardeşim beni ittirdi, vazo kırıldı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Dün gece yağmur yağdığı için yerler ıslanmıştı, dolayısıyla parka gidemedim | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Bu problem çok zor görünüyor, bana sorarsan bunu öğretmen dahi çözemez. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Okulun hazırladığı gösteriye, işte oldukları için ne annem ne de babam gelebildi. | Gerçek: negatif | Tahmin: negatif | Sebep: ne ne yapısı negatif
+Cümle: 	Gözlerimin içine bak ve söyle, böyle olmasını ben mi istedim? | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Başımıza ne işler açtın sen, çık çıkabilirsen bu işin içinden. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Sabah evimden okuluma gelirken otobüste tatsız bir olayla karşılaştım. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Sınıfımdaki Ahmet, projelerde etkin bir rol üstlenen bir öğrenci değil. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Dayım, saatini kurmayı unuttuğu için otobüse yetişemedi ve işe geç kaldı. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Telefon uygulamasından söylemiş olduğum yemek, uygulamada yazan süreden geç geldi. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Yeni çıkan oyununu aldığı puanlar gösteriyor ki, beklentiyi karşılayamamış durumdalar. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Dediklerine bakacak olursak ağzından çıkanı kulağın duymuyor olmalı haksız mıyım? | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Telefonumun şarjı eve gidene kadar dayanamadı ve şu an kimseyi arayamıyorum. | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: 	Yarın için olan ödevimi yaparken elektriklerin kesilmesi sebebiyle ödevimi yetiştiremeyeceğim. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Alışveriş sitesinden siparişini verdiğim tekerlekli sandalye yine zamanında bana ulaşmayacak. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Çok sevdiğim bir yakın dostumla ettiğimiz tartışma sonucu birbirimize küstük. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Kardeşim ders çalışırken beni sürekli rahatsız ediyor, konularımı yetiştirmekte zorlanıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Çantamdaki su patlamış, defterlerim ıslanmış, notlarım kullanılamaz hale gelmiş durumda. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Yemekhane sırasının uzunluğu sebebiyle sıra bana geldiğinde tatlı alamamış oldum. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Kullandığım para biriminin değer kaybetmesi sonucu almak için para biriktirdiğim gitarı alamadım. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: 	Arkadaşımı ne kadar sevsem de güzel olmayan sesi ile şarkı söylemesi beni rahatsız ediyor. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Sokaklarda evsiz insanları görmek beni üzüyor ve gelecek hakkında endişelendiriyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Kendisi ne kadar iyi bir insan olsa da öfke sorunları var. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: 	Kirasını karşılayamayacak hale geldiğim için daha düşük fiyatlı bir ev bulmalıyım. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Uzak mesafede oturduğum için sabah erken kalkmak fazlasıyla yorucu oluyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Masadaki yükseklik sorununu henüz çözememişsin. | Gerçek: negatif | Tahmin: pozitif | Sebep: fiil negatif ve negatif sıfat var
+Cümle: Bu aralar baya şanssızım sanırım. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bunca yoldan sonra eve neredeyse varamıyorduk. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Otobüse binmek beni artık pek de yormuyor. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Açken yemek yiyince enerjimi geri kazanıyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Rahatlıkla dinlenirken nelerle karşılaşacağını bilmiyordu arkadaşımız. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bir programlama dilini öğnrendikten sonra diğerlerini öğrenmek çok daha kolay geliyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kalemimin ucunu değiştirmesi, içindeki mekanik kısım sıkıntılı olduğundan zor oluyor. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bunca çalışma ve emekten sonra nihayet tüm derslerini geçebilmişti. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bilgisayarındaki temizlikten sonra cihazın performansı büyük ölçüde arttı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gitar çalmayı çok istemişti ancak öğrenmesi ona çok zor gelmişti. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Botlarımı giyip yağmurlu havalarda yürüyüş yapmak çok sakinleştirici geliyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kasa bilgisayarlar daha sessiz ve soğuk olsalar da dizüstü bilgisayarları daha çok seviyorum. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: RGB ekipmanları sevsem de fazla ışıklar beni çok rahatsız ediyor. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bilgisayar oyunları oynamak toplumca güzel karşılanmıyor. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Anladığım kadarıyla yazılımcılar, yazılımcı kimliklerini seviyor ve benimsiyorlar. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Şirketlerin acımasız politikalarını insanlar sevmiyorlar. | Gerçek: negatif | Tahmin: pozitif | Sebep: fiil negatif ve negatif sıfat var
+Cümle: Ama yine de son çıkan pahalı ürünleri almayı herkes çok istiyor. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: İnsanlar sanatsal çalışmalarıın görsellik kısmını severler. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Eski dönemin kıyafetlerı sonraki nesiller tarafından sevilmezler. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Bazı insanlar fazla hareket gerektiren aktivitelere bayılıyorlar. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çoğu insan yüksek mekanlarda bulunmayı güvenli bulmaz. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Dar sokaklar genelde insanlara güven vermezler. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Denizin olduğu şehirler olmadığı şehirlere göre çok daha fazla sevilir. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Tır kullanmak ve yük taşımanın birçok kişi tarafından sevilir. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Aksiyon oyun ve filmlerinin halk nazarında kişilere kötü etkisi olduğu düşünülür. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Kitap okumak yararlı görülse de çoğu kişi için eğlenceli değildir. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bazı romanların olayları fazla uzatması beni o romandan soğutuyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yazılım yazdıkça alınan haz genelde artıyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Orta seviye kas bence neredeyse herkesde çok güzel görünüyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Rap müziğin bu kadar popüler olmasını hiç anlamıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Küçük ama çok işlevsel alet ve cihazlara hayranım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir yerlere giderken yavaş yürüyen insanları hiç anlayamıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Kar yağdığında kar taneleri havadaki sesi tutuyor, ve o sessizlik çok hoşuma gidiyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yemek sektöründeki zararlı maddeleri bildikten sonra paketli yiyeceklere sıcak bakmıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Gözlük takmak lens takmaya kıyasla çok daha iyi bana kalırsa. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bazı angarya ödevleri yapmak beni çok sıkıyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Evdeki sakinlik ve rahatı başka bir şeye değişmem. | Gerçek: pozitif | Tahmin: pozitif | Sebep: değişmem pozitif kuralı
+Cümle: Klavye ile çok hızlı yazı yazmaya bayılıyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Türkçe klavyeyi kodlamadaki özel karakterleri yazması zor olduğundan sevmiyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Birçok insanın aksine çok büyük monitörler beni hiç çekmiyor. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Mekanik klavyeler çok ses çıkarmasa da hissiyatlarından dolayı seviyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yakın zamanda ışık hızına ulaşacak teknolojiye varabileceğimizi hiç sanmıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: İnternet esprileri beni genelde çok güldürüyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bilgisayarların işleyişini öğrenmek bulmaca çözmek kadar zevk veriyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Temizliğine dikkat etmeyen insanları hiç anlamıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Bu ödev neden hala bitmiyor anlayamıyorum. | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Bu ödev bitince galiba inanılmaz mutlu olacağım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Uğurböceği hariç çoğu böceği sevmiyorum, hatta neredeyse tiksiniyorum. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sokak hayvanlarının sakin ve umursamaz bakışları çok tatlı geliyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çok uzun bir aradan sonra tekrar ata binecekleri için mutluydu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Annemin kardeşimin doğum günü için kendi elleriyle hazırladığı pasta şahane gözüküyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yıllardır tuttuğu takımı canlı bir şekilde binlerce insanın arasında izlemek heyecan vericiydi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendi ayakları üstünde durmak isteyen bir kadın olarak bu habere çok sevinmişti. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Konserde en sevdiğim sanatçıyla beraber şarkı söylerken kalbim duracak gibiydi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İki gün önce gittiğimiz komedi programında resmen gülmekten yerlere yattık. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: O küçüklüğümüzden beri hayata hep umut dolu bakan neşeli bir kızdı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Küvetin içinde sıcak ve köpüklü suda vakit geçirmek iyi geldi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sonunda yıllarca verdiği emeğin karşılığını almış hayallari gerçek olmuştu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yeni aldığı ekipmanlarını bir an önce kullanmak istiyor heyecandan yerinde duramıyordu. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Son birkaç gündür yaşadığı pozitif olaylar  onu şaşırtıyor ama mutlu ediyordu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Zamanında ilgilendiği felç hastasının şu anda yürüyebiliyor olduğu gördüğünde mutluluktan göz yaşlarını tutamadı. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Telefonunu apartmanın ikinci katından düşürmüş ama çizik dahi olmadığını görünce rahatlamıştı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Matematik testini full doğru yapan tek kişi olduğunu öğrendiğinde gururlandı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Babası karne hediyesi olarak çok istediği bisikletini aldığını öğrenince keyfi yerine geldi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Havadaki fırından yeni çıkmış ekmek kokusu insanın içini huzurla dolduruyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Okulun ilk günü ilkokullu çocukların cıvıl cıvıl neşesi ve sıcak güneşli hava ile hoş bir gündü. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Uzun süredir görmediğim babamı havalimanında bana güleryüzle bakarken görünce koşup sarıldım ona. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Anneannemin yaptığı çikolatalı bisküvili tatlı son zamanlarda yediğim en leziz şeydi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu aralar pek boş vaktim olduğundan dilediğim diziyi keyifle izleyebiliyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Derbide son saniye gelen gol tüm taraftarı büyük bir sevince boğdu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Onunla çok ortak noktamız var, sohbetlerimiz keyifli geçiyor açıkçası. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İki şirkette yaptıkları ortak anlaşmadan dolayı toplantıdan memnun ayrıldılar. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu tarz pozitif hayata olumlu bakan şarkılar dinlediğimde enerjim yükseliyor daha iyi hissediyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: O gün yaşadığım en güzel gündü, doğum günü pastam, hediyeler, arkadaşlarım hepsi benim için oradaydı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Şehir dışında üniversite okumak için ailesinden ayrılacak olmak onu üzüyordu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir süredir planlarım yolunda gitmiyor ard arda şanssız olaylarla karşılaşıyorum. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sınavlardan istediği notları alamamış, emeklerinin karşılığını görmemiş olmanın burukluğu vardı üzerinde. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çok küçük yaşta ailesini kaybetmiş maddi manevi zor bir çocukluk geçirmişti. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: O çocuğun kinci ve şımarık tavırlarından hoşlanmadığımı sana kaç defa söyledim. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gece yarısı gençlerin sokaktaki bağrışmalarını duyan yaşlı adam sinirle homurdanarak yatağından kalktı. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Yarışma sonucunda ilk üçe giremeyen yarışmacı teselli ödülüne ağlayacak gibi bakıyordu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Karanlık ormanda ilerlerken çevreden gelen uluma sesleriyle iyice gerilmişti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Saatlerdir sınav kağıtlarını okumaktan yorulmuş okuma gözlüğü artık canını yakmaya başlamıştı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir yıldan fazladır beslediği sokak köpeklerinin toplandığını duyduğunda hüngür hüngür ağladı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Doktor covid testinin pozitif çıktığını söylediğinde kendini bir an çok kötü hissetti. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Ben de bu durumdan pek memnun değilim ama elimizden bir şey gelmez. | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Düşünce dizi kanamaya başlayan çocuk acısına dayanamayıp ağlamaya başladı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Oynadığı kumarda son anda kaybedince kendini dünyanın en şanssız insanıymış gibi hissetti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Otobüsü kaçırınca toplantıya yetişmek için taksiye binip fazladan para vermesi gerektiğinden sinirlenmişti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ayrıca belirtmeliyim ki ülke ekonomimizin bu kadar kötü olması beni de üzmüyor değil. | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Yeğenimin gece köpek saldırısına uğraması ailedeki herkesin keyfini kaçırdı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Evin tadilat işlerinin birkaç gün daha süreceğini öğrenince yüzü düştü. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu tarz olayları bu kadar sık yaşamak onu yormuş ve bıktırmıştı hayattan. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir anda hızla geçen motor küçük çocuğu korkutmuş ve ağlamasına sebep olmuştu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Eşyalar taşınırken ailenin küçük çocuğunun klavyesi kırılmış suratı beş karıştı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yorucu günden sonra koltukta uyuyakalmış gördüğü kabusun etkisiyle ter içinde çığlıkla uyandı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir önceki işinde geçirdiği zor zamanlar onda derin yaralar bırakmış. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Verdiğim siparişin geç gelmesi yetmezmiş gibi gelen yemekler birbirine karışmış ve soğumuştu. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bir buçuk yıldır üniversite sınavına hazırlanıyor olmasına rağmen kendiniz hazır hissetmiyor. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bazı insanların hala makineleşmemiş olması beni mutlu ediyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu pis dünyada insan görmemiş ormanların güzelliği güneşin doğmasını sağlıyor. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Siyah beyaz dünyama rangarenk gökkuşakları getiren yol arkadaşımla evleneceğim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir çocuğun anne sevgisi gibiydi benim sevgim, hiç bitmezcesine. | Gerçek: pozitif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Önümüzdeki aydan itibaren %25 zam alacağım için çok mutluyum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İnsanların toplumsal yerine bireysel farkındalıklarını keşfetmeleri sevindirici bir gelişme | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kadın ile erkekler elbette eşit değiller, erkeklerin böyle muhteşem varlıklara karşı hiç şansı yok | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bana verilen bu hayatı seninle paylaştığım için minnettarım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Halamın yaptığı Afrika örgüsüne resmen bayıldım, sırada dövme var . | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Öyle güzel gözleri var ki orda kayboluyorum, tüm dünya blurlanmış ve tek gördüğüm o gözler. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bahçemizdeki dişi köpek bu sabah doğum yaptı, yavruları çok tatlılar. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu devirde Rover'dan anlayan eli düzgün bir usta bulmak büyük nimet. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir hayalim var gözlerinde saklı, her an aklımdasın ceylan gözlüm. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yazdığım kitabın bu genç arkadaşıma yol göstermesi kadar güzel bir his yok şu anda. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: İstanbul demek ha, böyle bir güzellik için yazılanlar yetersiz bile. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu yıl yapılmasını beklediğim motor festivali şehrimde yapılacak. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu yıl yapılan bilek güreşi turnuvasını 2. olarak tamamladım ve Avrupa turnuvasına hak kazandım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Zamanında yaptığım fedakarlıklar karşılıklarını vermeye başladılar. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yaptırdığım dövmeleri çevremdeki herkes çok beğendiğini söyledi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Pazartesi günü benimle kulübe gelmeyi kabul etti. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kayınpederim kızına olan sevgim ve saygımdan ötürü bana şirket hisselerinden pay verdi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sonunda hep düşlediğim tekneyi artık bu ay gidip alacağım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Son yapılan transferler sayesinde taraftarın sevgisini tekrar kazandık. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bugün dostlarım en sevdiğim masa oyunu olan 101'e davet ettiler beni. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çiçekçiden aldığım laleleri eşim çok beğendi çünkü en çok sarı rengini sevdiğini biliyordum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Onun yaşamının yokuş aşağı gittiği yıl, benimki de yokuş aşağı gittti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 21 yaşımda canlılığımın tükenmişliğinde, hala yaşıyorum ama üç adım önümü göremiyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Yaşamımın en güneşsiz kışını da İstanbul'da sessiz bir gölge olarak geçirdim. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kaç yaşında olduğumuz önemsiz ancak yaşlılığın iyi bir şey olduğunu da söyleyemem. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: İstisnası olmaya heves ettiğiniz işler yüzünden bu durumdayız! | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kadın erkek erdemlerine sahipse kaçıp gitmeli ondan. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Vefatından sonra çok denedim yaşamayı, olmadı kendimi kandırmışım sadece. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: O kasım gecesi iyi ki seninle birlikte yağmurda ıslanmışız(!) | Gerçek: negatif | Tahmin: negatif | Sebep: ironi kuralı
+Cümle: Bahçemin halinden baharımı kıyasla, ben artık çiçekleri sevemiyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Ne safmışım! Seni bırakmam demişti, kendisi devirdi ve gitti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir gün ne de olsa bırakırım demiştim, artık kokain bağımlısıyım. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu kanunlar istemiyor temiz kalsın herkes, kirlenmiş bir dünyadayız. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Söz vermiştin her Pazar o bankta oturacaktık, ben hep bekledim seni umutsuzca. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Beni umursuyormuş(!) Bir gece odasında boş ilaç kutusu ve bir oda polisle uğurladım. | Gerçek: negatif | Tahmin: negatif | Sebep: ironi kuralı
+Cümle: Benim sonbaharımda ağaçlar yaprak dökmüyor, bir ilmek sallanıyor sadece. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yeni uygulanan zamlardan sonra güncel fiyatlara göre alabileceğim bir araç yok. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bu ay öngörüsüz harcamalar sonucunda pazarda gerilememiz kaçınılmaz. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Öğrendim ki en sevdiğim dizi "You" 3. sezonda hikaye değişikliğine başvurrmuş. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir gün son sarılmamız olacak ama bunu hiçbir zaman anlayamayacağız. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Bir anda burnum kanamaya başladığı için sınavı yarım bırakmak zorunda kaldım. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Babam ben küçükken kolumda sigara söndürdüğü için, koluma dokunulmasından hoşlanmıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Babamı hiç sevemedim çünkü her zaman döverdi, hiç sevmezdi. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Bu sezon şampiyonluk hayalimiz gerçek olamayacak arkadaşlar. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Çok severek izlediğim dizinin son 3 bölümü kaldı sadece. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Komşuların dediğine göre annem öldükten sonra hiç tanınmaz biri olmuşum çevreme. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Dün akşam izlediğim film aslında çok da fena değildi. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Büyük Ev Ablukada grubu dün Bursada konser verdi ve konser eğlenceliydi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Arif Bey bugünkü vardiyası bittiği için sevindi ve şu an çok mutlu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Geçen hafta vizyona giren Dune filmi izleyiciler tarafından çok beğenildi. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yolda yürürken yerde 1 TL buldum. Kumbaramda artık 6,5 TL var. Zengin oldum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Aynanın karşısına geçtiğimde gördüğüm kişinin çok yakışıklı olduğunu düşünüyorum. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bugün dışarıya çıkarken bot giydiğim için ayaklarım ıslanmadı ve sıcak kaldı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Eylülün başında yapılan teorik ehliyet sınavını büyük bir başarıyla tamamladım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ayakkabı fiyatları çok pahalı ama indirim kuponu bulduğum için ucuza geldi ve param cebimde kaldı. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Onca yıldan sonra geldiğim yerden ve olduğum kişiden çok memnunum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Küçükken legolarımda ve oyuncaklarımla oynarkenki anılarımı çok seviyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Karanlıkta gürleyen şelalenin içime huzur doldurması ben fazlasıyla mest ediyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sinema biletimi internetten aldığım için mısır menüsünde yüzde yirmi indirim kuponu kazandım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendimi tutacağım, çok sabırlı olacağım. Ne yapıp edip sonunda üstesinden geleceğim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yarın gireceğim film üç boyutlu olduğu için gözlüklerimi aldım ve film için heyecanlıyım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bana aynısından oldu, hiçbir şey olmuyor. Ertesi gün yine eskisi gibi mutluydum. | Gerçek: pozitif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Yaptığım yatırımlar yakında değerlenecek ve bir anda çok zengin birisi olacağım | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Geçen gün altın aldım ve ertesi gün altın yükseldi. Kısa günün kârı yine para kazandım. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bugün hava yağmurlu olmasına rağmen otobüs zamanında geldi ve işe geç kalmadığım için yöneticim beni tebrik etti. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Yolda gelirken birisi piyano çalıyordu. Çok sevdiğim bir animenin müziğiydi. Bu yüzden fazlasıyla mest oldum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yakın zamanda bir bağlama kursu vardı. Ona katıldım ve artık bağlama çalabiliyorum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Adam kendini bir turşuya dönüştürdü! Bu gerçekten ama gerçekten aşırı komik bir olay! | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Şimdi sallama zamanı diyerekten ödevim için 75 tane cümleyi yazdım ve şu anlık ödevimi bitirdim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Dün akşam gittiğim konser kafamı dağıttı ve beni fazlasıyla mutlu etti. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendimi bildim bileli insanlarla iletişim kurma konusunda normalden bir tık fazla becerikliyim. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yahu o kadar mesaimiz var biriniz bile çıkıp nereye gidiyorsun demedi. Hepinize yazıklar olsun. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendini ölümün sessiz huzuruna teslim eden Martin Eden artık bu dünada değil. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Peşimi bırakmıyor bu yükselişlerim. İhtimallerin heyecanına üzülüyorum elimde değil. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: İşler uzadığı için ve sürekli aksilikler çıktığı için bu gece işten erken çıkamadık. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bugün işe gelirken kuzenimin verdiği çok sevdiğim bir bilekliği kaybettim. Bu beni ziyadesiyle üzdü. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ne kadar mutluyduk oysa dünya şahidim. Her şey dünyaya ait ve ben bu dünyayı sevmedim. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Bana bir baktı, beni bir gördü, beni bir süzdü, bana sokuldu ama sonradan beni beğenmedi. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bak halime kül oldum uçtum gittim. Şu ana kadar en çok üzüldüğüm olay bu oldu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bugün bir ok ile vuruldum ve yaramı dezenfekte edip sarmadığım için mikrop kaptı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bedenim özgür kalsa neye yarar. İçimde kalanlar ruhumu her gün daha fazla acıtır. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gün geçtikçe masadan eksiliyor dostlar. Yalnız kalma korkusuyla huzursuz oluyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bursada işlek bir yolda giderken hatalı sollama yaptığım için bir kaza yaptım. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Araba ile yolda giderken benzin bitti ve in cin top oynayan yerde yolda kaldık. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yakınlarda bir gezegende unuttuğum tüm şeyler hepsi ayrı bir anı çağırıp beni üzüyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gece güzel ama mahvetmek üzereyim yalan yok, hepinizi üzmek istiyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bir şehre ait olmak çok zordur. Sürekli oradan oraya koşturduğumuz için hiç sevilmemişiz. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Evdeki gazania türü çiçeğim sulamasını unuttuğum ve böcek ilacı sıkmadığım için solmuş. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çocukken beni tam parmağımın ucundan arı sokmuştu canım muazzam yanmıştı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ne kaldı bak ellerimde, biliyorum gülüyorsun. Her adımım daha derine, ölüyorum. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Rüzgargülleri temiz enerji üretimi konusunda faydalı ama kuşların göç yolunda olduğu için binlerce kuşu öldürüyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu sabahların bir anlamı olmadığı için günlerim bomboş geçiyor ve verim alamıyorum. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Marmara denizindeki müsilaj sorunu bu seneki balık fiyatlarını etkiledi ve artık eskisi kadar balık yiyemiyoruz. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Büyük Ev Ablukada konserinde solistin şiir okuduğu bir kısımda seyircilerden birisi alkış tuttu. Rezalet bir andı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Dün akşam soğuk havada ince giyindiğim için üşütmüşüm ve ertesi gün hasta oldum. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Yapılan bir operasyon sonucunda bir amerikan askeri mayına basarak sağ ayağını kaybetmiş. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Haluk öğretmen işini seven , ciddi, öğreten bir insandır. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Antakya belediyesi çok medeni imiş o zamanlar. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gözler gülümsüyorsa muhtemelen kağıtlar iyi gelmiştir. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ahmet Hocanın verdiği bu haber, bütün sınıfı sevince boğdu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bahçe binbir çeşit çiçekle bezenmiş, rengarenk olmuş,güzel kokularla dolmuştu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu dayanılmaz güzelliğe, sese nasıl hayır diyebilirdim bilmiyorum. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Yetenekli, özgür ve zengin yapılı insanlar hayatta her zaman en önden gidenlerdir. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Hisselerin tavan yapması bir çok insanı zengin etti. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Vadi Siteleri size konforlu bir hayat sunuyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kapıdan çıkıtğı anda ayağı takıldı, fakat arkasından onu nazikçe tutan bir el, onu bu kötü durumdan daha içine girmeden kurtardı. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Fatma nine karşı dairede yaşayan yumuşak huylu, melek gibi bir kadındı. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Sosyal medya platformlarında yaptığı birçok başarısız girişimin sonucunda büyük bir başarı yakaladı. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Fiyatı çok yüksek olmasına rağmen binlerce kullanıcı bu ürünü hevesle satın alıyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Paylaşacak pek bir şeyi olmasa da arkadaş gruplarıyla takılmak onu çok mutlu eder. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Günümüzde bilgisayar teknolojisi hızla gelişmeye ve yaygınlaşmaya devam ediyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çok hastaydı fakat  annesini her görüşünde içi ısınır, yumuşak bir gülümseme yerleştirirdi yüzüne. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Camının önünde duran onlarca çiçeği sulamak ruhunu dinlendiriyordu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Hayati fonksiyonlarında ciddi bir yükseliş görmek doktoru heyecanlandırdı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Her hafta okuluna aksatmadan gider, inci gibi notlar tutardı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Aldığı iyi terbiye yüzüne vurmuş, bakımlı ve yakışıklı bir çocuk yardım etti kalkmasına. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Aldığı ilaçlar baş ağrısını dindiriyor ve daha rahat çalışmasını sağlıyordu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Maharetli ellerinin dokunduğu bütün yemekler lezzet pınarlarına dönüşüyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Müziğin ilk notalarında kendini kaybediyor, büyük bir zevkle dans etmeye başlıyor. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Açıklamaların mantık çerçevesinde yapılması herkesi rahatlatmıştı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bütün her şeyi bir kenara bırakıp sakin bir sahil kasabasına yerleşmeyi başardı sonunda. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Fabrika sayısının kontrolsüz artması sonucu arazi kirlenmesi ve tahribat başladı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Suç ilanları ve kayıp haberleri dışında başka bir şey göremiyorum ben. | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: İşte makinelerin kapitalist kullanımının muhteşem sonucu! | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Evlatlarını kaybetmenin dayanılmaz acısı ile ağıtlar yakıyor, kendini yerden yere vuruyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Shift tuşları bozuk olduğu için bu işaretleri yazamıyor, raporu gönderemiyorlardı. | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Kitapların hepsini yakıyorlar, insanları köleleştiriyorlar ve eskiyi unutmaları için inanılmaz psikolojik işkenceler uyguluyorlardı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Avukatlar ve hukukçular da aynı büyük, ani ve hain cezaya çarptırılacaklar. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Yalnızca her türlü kişisel farkındalığın dışlandığı düşüncelere saldırırım. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kibrit çöpü gibi kolları, bardağı kaldırmaktan bile acizdi. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendi bölümü hakkında şaşırtıcı derecede az fikre sahipti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bunlar bir iki yıllığına ABD'ye gidiyor,dönerken beraberlerinde orda gördükleri yalan yanlış şeyleri beraberlerinde getiriyorlardı. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bu yaptığın hareket hiç hoş değil. | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Bu kadar hızlı gelişen bir teknolojinin duvarları arasında tıkılıp kalan çocuklar, sosyallikten mahrum bir şekilde büyüyor. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yapılan bütün müdahalelere rağmen hayata gözlerini yumdu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Defalarca enstruman değiştirmesine, farklı kurslara gitmesine ve saatlerce uğraşmasına rağmen müzikte başarı yakalayamadı. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Birbirini ezdi insanlar, yumruk kadar simsiyah bir somun ekmek için. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bir avuç para için yapılacak iş mi bu Allah aşkına! | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ey burjuvazinin devrimci ilkelerinin uğradığı içler acısı başarısızlık! | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Gün geçtikçe artar oldu derdim demiştim; üzülmesin öldüğünde geçer demişsin. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Öldüğünde çocuklarına üç kuruş bırakamadı, göçtü gitti. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Her adım atmaya çalıştığımda bileğimdeki acı daha da artıyor gözümden yaş geliyordu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yırtık elbiselerle Ankara soğuğunda ayağı çıplak geziyor, mendil satmaya çalışıyordu. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Ustanın yaptığı bütün fayansları tek tek kırıp suratına bağırdı. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Soğuk bir sesle ortamı terketmemi yoksa çok kötü şeyler yaşanacağını söyledi. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: At merakı, attan düşüp belini kırmasıyla son buldu. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yeni oda arkadaşımın bilgisayarını seviyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yurt odamızın duvarlarındaki rengi çok beğeniyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Müşteriler yeni kampanya için çok heyecanlı | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çocuk parka gideceği için çok hevesliydi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çok istediğim kitap indirime girmiş | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ona bakarken gözünün içi parlıyordu | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sevgilimle romantik bir akşam yemeği yedik | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kızımın geleceği için çok umutluyum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Öğretmenimizin ders anlatımı inanılmaz etkileyiciydi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Okula giderken tatlı bir kediyle karşılaştım | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Annemin lezzetli yemeklerinin tadı hala damağımda | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sigarayı bıraktıktan sonra gençleştim adeta | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ormandaki kulübemize gittiğimde iç huzuru buluyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Babamın sözleri benim için paha biçilemezdi | Gerçek: pozitif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Bilim müzesine gittiğim ilk gün benim için sihirliydi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Öğretmeni çok gayretli olduğunu söyledi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kardeşime doğum gününde sürpriz yaptık | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bugün en iyi çocukluk arkadaşımla karşılaştım | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bayramda dedemi aradığımda sesi çok sevinçliydi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Böyle bir aileye sahip olduğum için çok şanslıyım | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Evde kimmse yokken bağırarak şarkı söylemeye bayılıyorum | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Aylardır beklediğim iş fırsatını sonunda yakaladım | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Hocamız engin bilgisi ile sınıfı adeta büyüledi | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Onunla olan günlerimi hep gülümseyerek hatırlıyorum | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu sokaklardan geçerken burnuma gelen kokular bana çocukluğumu hatırlatıyor | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ülkenin gidişatını hiç iyi görmüyorum | Gerçek: negatif | Tahmin: negatif | Sebep: hiç sıfatı negatif fiil var
+Cümle: Söylediği şeyler akla mantığa uygun değildi | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bana yıllardır yalan söylediklerini farkettim | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Bazen yaptıklarıyla beni çok sinirlendiriyor | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Arkadaşım intihar etmeyi düşündüğünü söyledi | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Öğretmenimin söyledikleri gurur kırıcıydı | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Trafikte giderken iki şoförün kavga ettiğini gördüm | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Yurtta yapılan yemeklerin tadı berbattı | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sınav öncesi çok gergin gözüküyordu | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çocukluğumu geçirdiğim ev bugün yıkıldı | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Savaşlarda taraflar kazanmak uğruna onursuzca davranabiliyorlar | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Açgözlülüğü yüzünden elinde olanları da kaybetti | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Tarlamıza tehlikeli bir böcek türü dadanmış | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Geçen yıl bir arkadaşımı trafik kazasında kaybettim | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Artık yaşamaktan keyif almadığımı farkettim | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Hep hayalini kurduğum bölümü kazanamadım | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Bilgisayarım sürekli donduğu için işlerimi yapamıyorum | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Hava çok bulutlu olduğu için hiçbir şey yapmaya hevesim yok | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: O kadar çok üşüyorumki ellerimi oynatamıyorum | Gerçek: negatif | Tahmin: negatif | Sebep: tek fiil negatif
+Cümle: Diş fırçamı yanımda getirmeyi unutmuşum | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Annemin yaptığı güzel yemekleri çok özlüyorum | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: İnternetim olmadığı için ödevimi yetiştiremedim | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Bu haberi duyana kadar günüm çok güzel geçiyordu | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Çikolatayı çok seviyorum ama mideme dokunuyor | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sıcak su olmadığı için duş alamadım | Gerçek: negatif | Tahmin: pozitif | Sebep: son iki fiil olumsuz
+Cümle: Hava sıcak olduğu için açık havada vakit geçirdim ve mutluyum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Pazar günü dinlenmek için güzel bir gün haftaya dinlenmiş başlamak için de oldukça önemli. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Parfümeri dükkanlarında genelde hoş kokular ortama hakimdirler. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sabah  erken uyanınca günüm verimli geçer ve zamanı güzel değerlendirmiş olurum. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Enerjimiz yüksek olduğunda olumlu duygular hissederiz bu bizi iyi hissettiren bir olgudur. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Duruma göre duygusal olmak kötü değildir sadece doğru zaman ve yerde olması gerekir. | Gerçek: pozitif | Tahmin: negatif | Sebep: sadece negatif sıfat var
+Cümle: Köşede duran arabanın rengini beğendim bir araba alsam kesinlikle bu renk olurdu. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Kendimiz doğru ifade etmeye çalışırken cümlelerimizi özenle seçmeliyiz. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Ufak eksiklere rağmen cevaplamış olduğun sorunun cevabı yanlış değil. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Her halinden belli sen etrafa neşe saçıyor dedikleri tarzda bir insansın. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Sağlam yapılar depremde ayakta kalırken herhangi bir sorun yaşanmadı. | Gerçek: pozitif | Tahmin: negatif | Sebep: son fiil olumsuz
+Cümle: Sınavda başarılı olmak için programını yaptı ve düzenli çalıştı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: Bu işi sadece iyi bir ekip olmayı başarırsak üstesinden gelebiliriz. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+
+Toplam cümle: 803, Doğru tahmin: 589, Doğruluk: 73.35%
