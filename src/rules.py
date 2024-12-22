@@ -1,29 +1,56 @@
 import json
+import string
 
-with open("kelimeler.json", "r", encoding="utf-8") as f:
+path = "data/kelimeler.json"
+
+with open(path, "r", encoding="utf-8") as f:
     kelimeler = json.load(f)
 
 class RULE():
     def __init__(self):
         self.negatif_sifatlar = set(kelimeler["negatifSifatlar"])  # Negatif sıfatları JSON'dan al
-
-    def sonFiilBul(self, analysis_results):
+        self.negatif_fiiller = set(kelimeler["negatifFiiller"])  # Negatif fiilleri JSON'dan al
+    
+    def tumFiilleriBul(self, analysis_results):
         """
-        Cümledeki son fiili bulur.
+        Cümledeki tüm fiilleri bulur.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+            (str veya analiz nesneleri formatında olabilir)
+        Returns:
+            list: Tüm fiillerin string çıktılarından oluşan bir liste. Eğer fiil yoksa boş bir liste döner.
+        """
+        verbs = []
+
+        for analysis in analysis_results:
+            # Eğer analiz zaten string ise doğrudan kontrol et
+            analysis_string = analysis if isinstance(analysis, str) else analysis.format_string()
+
+            # Eğer bir fiil bulunursa listeye ekle
+            if ":Verb" in analysis_string:
+                verbs.append(analysis_string)
+
+        return verbs
+
+
+
+    def sifatlariBul(self, analysis_results):
+        """
+        Analiz sonuçlarında sıfat (Adj) etiketine sahip kelimeleri bulur.
         Args:
             analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
         Returns:
-            str: Son fiilin format_string() çıktısı. Eğer fiil yoksa None döner.
+            list: Sıfatların köklerini içeren bir liste. Eğer sıfat yoksa boş liste döner.
         """
-        last_verb = None
-
+        sifatlar = []
         for analysis in analysis_results:
-            # Eğer bir fiil bulunursa, son fiili güncelle
-            if ":Verb" in analysis.format_string():
-                last_verb = analysis.format_string()
-        return last_verb
+            if ":Adj" in analysis.format_string() or ":Noun" in analysis.format_string():
+                # Kelimenin kökünü almak için format_string'deki ilk kısmı alıyoruz
+                sifat_kok = analysis.format_string().split("[")[1].split(":")[0]
+                sifatlar.append(sifat_kok)
+        return sifatlar
 
-    def negatifSifatVar(self, sentence):
+    def negatifSifatVar(self, sentence, analysis_results):
         """
         Cümlede negatif bir sıfat olup olmadığını kontrol eder.
         Args:
@@ -31,8 +58,16 @@ class RULE():
         Returns:
             bool: Negatif sıfat varsa True, yoksa False.
         """
-        for word in sentence.lower().split():  # Cümleyi küçük harfe çevirip kelimelere ayır
+            # Noktalama işaretlerini kaldır
+        translator = str.maketrans('', '', string.punctuation)
+        cleaned_sentence = sentence.translate(translator).lower()        
+        for word in cleaned_sentence.split():
             if word in self.negatif_sifatlar:
+                return True
+        
+        sifatlar = self.sifatlariBul(analysis_results)
+        for sifat in sifatlar:
+            if sifat in self.negatif_sifatlar:
                 return True
         return False
 
@@ -57,23 +92,59 @@ class RULE():
             if ":Verb" in single_analysis.format_string():
                 return True
         return False
-
-    def fiildeOlumsuzlukEkiVar(self, analysis_results):
-        for single_analysis in analysis_results:
-            if ":Neg" in single_analysis.format_string():
+    
+    def fiilNegatif(self, analysis):
+        s = analysis if isinstance(analysis, str) else analysis.format_string()
+        if s in self.negatif_fiiller:
+            return True
+        elif ":Verb+Neg" in s: 
+            return True
+        elif ":Unable" in s:
+            return True
+        elif ":Neg" in s:
+            return True
+        return False
+    
+    def sonIkiFiilNegatif(self, analysis_results):
+        """
+        Cümledeki son iki fiilin olumsuz olup olmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: Son iki fiil de olumsuzsa True, değilse False.
+        """
+        verbs = self.tumFiilleriBul(analysis_results)
+        if len(verbs) >= 2:
+            if self.fiilNegatif(verbs[-1]) and self.fiilNegatif(verbs[-2]):
                 return True
         return False
     
-    def olumsuzFiilVar(self, analysis_results):
-        for single_analysis in analysis_results:
-            if ":Verb+Neg" in single_analysis.format_string(): 
+    def sonFiilNegatif(self, analysis_results):
+        """
+        Cümledeki son fiilin olumsuz olup olmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: Son fiil olumsuzsa True, değilse False.
+        """
+        verbs = self.tumFiilleriBul(analysis_results)
+        if len(verbs) >= 1:
+            if self.fiilNegatif(verbs[-1]):
                 return True
         return False
-
-    def yetersizlikEkiVar(self, analysis_results):
-        for single_analysis in analysis_results:
-            if ":Unable" in single_analysis.format_string():
-                return True
+    
+    def hicSifativeNegatifFiilVar(self, sentence, analysis_results):
+        """
+        Cümlede hiç sıfat veya fiil olup olmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: Sıfat veya fiil yoksa True, varsa False.
+        """
+        if "hiç" in sentence and self.sonFiilNegatif(analysis_results):
+            return True
+        if "Hiç" in sentence and self.sonFiilNegatif(analysis_results):
+            return True
         return False
     
     def degismemPozitifMi(self, analysis_results):
@@ -100,20 +171,10 @@ class RULE():
             bool: 'Ne ... ne ...' yapısı varsa ve fiil olumsuz değilse True, aksi halde False.
         """
         ne_counter = 0
-        fiil_bulundu = False  # Ne yapısından sonra fiilin olup olmadığını kontrol etmek için
-
         for i, analysis in enumerate(analysis_results):
-            if "ne:Adj" in analysis.format_string():
+            if "ne:Adj" in analysis.format_string() or "ne:Adv" in analysis.format_string():
                 ne_counter += 1
-            if ":Verb" in analysis.format_string():
-                fiil_bulundu = True
-        if ne_counter == 2:
-            last_verb = self.sonFiilBul(analysis_results)
-
-            # Eğer son fiil varsa ve olumsuzluk içeriyorsa negatif olarak değerlendir
-            if last_verb and (":Neg" in last_verb or ":Unable" in last_verb):
-                return False  # Negatif
-            return True  # Pozitif
-        return False  # 'Ne ... ne ...' yapısı yoksa negatif olarak değerlendir
+        if ne_counter == 2 and not self.sonFiilNegatif(analysis_results):
+            return True
 
 
