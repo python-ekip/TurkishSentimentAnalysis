@@ -23,7 +23,7 @@ class RULE:
             analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
             (str veya analiz nesneleri formatında olabilir)
         Returns:
-            list: Tüm fiillerin string çıktılarından oluşan bir liste. Eğer fiil yoksa boş bir liste döner.
+           list: Tüm fiillerin string çıktılarından oluşan bir liste. Eğer fiil yoksa boş bir liste döner.
         """
         verbs = []
 
@@ -187,3 +187,32 @@ class RULE:
         if ne_counter == 2 and not self.sonFiilNegatif(analysis_results):
             return True
         return False
+
+    def isAcmakNegatifligiVarMi(self, analysis_results):
+        """
+        'iş açmak' yapısının cümlede bulunup bulunmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: 'iş açmak' yapısı varsa True, aksi halde False.
+        """
+
+        index = 0
+        for i, analysis in enumerate(analysis_results):
+            if "iş:Noun" in analysis.format_string():
+                index = i
+            elif "açmak:Verb" in analysis.format_string() and (
+                (i == index + 1) or (i == index - 1)
+            ):
+                return True
+        return False
+
+    def yapYapabilirsenNegatifMi(self, analysis_results):
+        """
+        'Gel gelebilirsen, git gidebilirsen vb...' yapısının cümlede bulunup bulunmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: 'yap yapabilirsen' yapısı varsa ve olumsuzluk anlamı katıyorsa True, aksi halde False.
+        """
+        pass

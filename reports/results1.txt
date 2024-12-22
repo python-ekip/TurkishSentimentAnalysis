@@ -468,7 +468,7 @@ Cümle: 	Dün gece yağmur yağdığı için yerler ıslanmıştı, dolayısıyl
 Cümle: 	Bu problem çok zor görünüyor, bana sorarsan bunu öğretmen dahi çözemez. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
 Cümle: 	Okulun hazırladığı gösteriye, işte oldukları için ne annem ne de babam gelebildi. | Gerçek: negatif | Tahmin: negatif | Sebep: ne ne yapısı negatif
 Cümle: 	Gözlerimin içine bak ve söyle, böyle olmasını ben mi istedim? | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
-Cümle: 	Başımıza ne işler açtın sen, çık çıkabilirsen bu işin içinden. | Gerçek: negatif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
+Cümle: 	Başımıza ne işler açtın sen, çık çıkabilirsen bu işin içinden. | Gerçek: negatif | Tahmin: negatif | Sebep: iş açmak negatif kuralı
 Cümle: 	Sabah evimden okuluma gelirken otobüste tatsız bir olayla karşılaştım. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
 Cümle: 	Sınıfımdaki Ahmet, projelerde etkin bir rol üstlenen bir öğrenci değil. | Gerçek: negatif | Tahmin: negatif | Sebep: son fiil olumsuz
 Cümle: 	Dayım, saatini kurmayı unuttuğu için otobüse yetişemedi ve işe geç kaldı. | Gerçek: negatif | Tahmin: negatif | Sebep: sadece negatif sıfat var
@@ -802,4 +802,4 @@ Cümle: Sağlam yapılar depremde ayakta kalırken herhangi bir sorun yaşanmad�
 Cümle: Sınavda başarılı olmak için programını yaptı ve düzenli çalıştı. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 Cümle: Bu işi sadece iyi bir ekip olmayı başarırsak üstesinden gelebiliriz. | Gerçek: pozitif | Tahmin: pozitif | Sebep: hiçbir negatif kural çalışmadı
 
-Toplam cümle: 803, Doğru tahmin: 589, Doğruluk: 73.35%
+Toplam cümle: 803, Doğru tahmin: 590, Doğruluk: 73.47%

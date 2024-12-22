@@ -1,13 +1,19 @@
-import time
 import logging
-import pandas as pd
 import os
-import rules
+import time
+
+import pandas as pd
 from zemberek import TurkishMorphology
 
+import rules
+
 # Logger ayarları
-logging.basicConfig(level=logging.INFO, filename="classification_log.log", filemode="w",
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO,
+    filename="classification_log.log",
+    filemode="w",
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
 logger = logging.getLogger(__name__)
 
 # Zemberek Morfoloji
@@ -15,6 +21,7 @@ morphology = TurkishMorphology.create_with_defaults()
 
 # RULE Sınıfı
 rule = rules.RULE()
+
 
 def classify_sentence_with_reason(sentence):
     """
@@ -29,6 +36,8 @@ def classify_sentence_with_reason(sentence):
     analysis_results = after.best_analysis()
 
     # Spesifik kurallar
+    if rule.isAcmakNegatifligiVarMi(analysis_results):
+        return "negatif", "iş açmak negatif kuralı"
     if rule.degismemPozitifMi(analysis_results):
         return "pozitif", "değişmem pozitif kuralı"
     if rule.ironiVar(sentence):
@@ -39,12 +48,14 @@ def classify_sentence_with_reason(sentence):
     if rule.fiilVar(analysis_results):
         fiiller = rule.tumFiilleriBul(analysis_results)
         fiil_count = len(fiiller)
-        
+
         if rule.hicSifativeNegatifFiilVar(sentence, analysis_results):
             return "negatif", "hiç sıfatı negatif fiil var"
 
         if fiil_count == 1:
-            if rule.fiilNegatif(fiiller[0]) and rule.negatifSifatVar(sentence, analysis_results):
+            if rule.fiilNegatif(fiiller[0]) and rule.negatifSifatVar(
+                sentence, analysis_results
+            ):
                 return "pozitif", "fiil negatif ve negatif sıfat var"
             elif rule.fiilNegatif(fiiller[0]):
                 return "negatif", "tek fiil negatif"
@@ -54,11 +65,12 @@ def classify_sentence_with_reason(sentence):
                 return "pozitif", "son iki fiil olumsuz"
             elif rule.sonFiilNegatif(fiiller):
                 return "negatif", "son fiil olumsuz"
-    
+
     if rule.negatifSifatVar(sentence, analysis_results):
         return "negatif", "sadece negatif sıfat var"
-    
+
     return "pozitif", "hiçbir negatif kural çalışmadı"
+
 
 def evaluate_model_with_reasons(file_path, output_file):
     """
@@ -75,10 +87,12 @@ def evaluate_model_with_reasons(file_path, output_file):
 
     # Çıktı dosyasını aç
     with open(output_file, "w", encoding="utf-8") as output:
-        for index, row in df.iterrows():
+        for i, row in df.iterrows():
             sentence = row["Cümle"]
             true_class = row["Sınıf"].strip().lower()  # Gerçek sınıf
-            predicted_class, reason = classify_sentence_with_reason(sentence)  # Tahmini sınıf ve sebep
+            predicted_class, reason = classify_sentence_with_reason(
+                sentence
+            )  # Tahmini sınıf ve sebep
 
             # Loglama
             log_message = f"Cümle: {sentence} | Gerçek: {true_class} | Tahmin: {predicted_class} | Sebep: {reason}\n"
@@ -96,5 +110,7 @@ def evaluate_model_with_reasons(file_path, output_file):
         output.write("\n" + summary)
 
     print(f"Sonuçlar {output_file} dosyasına kaydedildi.")
+
+
 if __name__ == "__main__":
     evaluate_model_with_reasons("data/hoca_data.xlsx", "reports/results1.txt")
