@@ -53,17 +53,17 @@ def classify_sentence_with_reason(sentence):
             return "negatif", "hiç sıfatı negatif fiil var"
 
         if fiil_count == 1:
-            if rule.fiilNegatif(fiiller[0]) and rule.negatifSifatVar(
-                sentence, analysis_results
-            ):
-                return "pozitif", "fiil negatif ve negatif sıfat var"
-            elif rule.fiilNegatif(fiiller[0]):
+            if rule.fiilNegatif(fiiller[0]):
+                if rule.negatifSifatVar(sentence, analysis_results):
+                    return "pozitif", "fiil negatif ve negatif sıfat var"
                 return "negatif", "tek fiil negatif"
 
         elif fiil_count >= 2:
             if rule.sonIkiFiilNegatif(fiiller):
+                if rule.ikiFiilArasiEdatVarMi(analysis_results):
+                    return "negatif", "iki olumsuz fiil arasında edat var"
                 return "pozitif", "son iki fiil olumsuz"
-            elif rule.sonFiilNegatif(fiiller):
+            if rule.sonFiilNegatif(fiiller):
                 return "negatif", "son fiil olumsuz"
 
     if rule.negatifSifatVar(sentence, analysis_results):

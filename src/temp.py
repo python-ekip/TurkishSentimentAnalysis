@@ -10,7 +10,7 @@ morphology = TurkishMorphology.create_with_defaults()
 
 rule = rules.RULE()
 
-sentence = "Bunca saat boyunca bütün işittiğin bu sözlerden sonra, uyu uyuyabilirsen!"
+sentence = "Diş fırçamı yanımda getirmeyi unutmuşum"
 analysis = morphology.analyze_sentence(sentence)
 after = morphology.disambiguate(sentence, analysis)
 
@@ -58,8 +58,11 @@ def classify_sentence_with_reason(sentence):
 
         elif fiil_count >= 2:
             if rule.sonIkiFiilNegatif(fiiller):
+                if rule.ikiFiilArasiEdatVarMi(analysis_results):
+                    return "negatif", "iki olumsuz fiil arasında edat var"
                 return "pozitif", "son iki fiil olumsuz"
-            elif rule.sonFiilNegatif(fiiller):
+            if rule.sonFiilNegatif(fiiller):
+                print("Both neg verbs")
                 return "negatif", "son fiil olumsuz"
 
     if rule.negatifSifatVar(sentence, analysis_results):

@@ -103,8 +103,9 @@ class RULE:
 
     def fiilNegatif(self, analysis):
         s = analysis if isinstance(analysis, str) else analysis.format_string()
+        print("\n\nssplitted:", s.split(":")[0])
         if (
-            s in self.negatif_fiiller
+            s.split(":")[0].strip("[]") in self.negatif_fiiller
             or ":Verb+Neg" in s
             or ":Unable" in s
             or ":Neg" in s
@@ -198,6 +199,7 @@ class RULE:
         """
 
         index = 0
+
         for i, analysis in enumerate(analysis_results):
             if "iş:Noun" in analysis.format_string():
                 index = i
@@ -205,6 +207,28 @@ class RULE:
                 (i == index + 1) or (i == index - 1)
             ):
                 return True
+        return False
+
+    def ikiFiilArasiEdatVarMi(self, analysis_results):
+        """
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        """
+
+        indexOfFirstVerb = -1
+        indexOfEdat = -1
+        indexOfSecondVerb = -1
+
+        for i, analysis in enumerate(analysis_results):
+            if ":Verb" in analysis.format_string():
+                if indexOfFirstVerb == -1:
+                    indexOfFirstVerb = i
+                else:
+                    indexOfSecondVerb = i
+            if "için:Postp" in analysis.format_string():
+                indexOfEdat = i
+        if indexOfFirstVerb < indexOfEdat < indexOfSecondVerb:
+            return True
         return False
 
     def yapYapabilirsenNegatifMi(self, analysis_results):
@@ -216,3 +240,12 @@ class RULE:
             bool: 'yap yapabilirsen' yapısı varsa ve olumsuzluk anlamı katıyorsa True, aksi halde False.
         """
         pass
+        # index = 0
+        # for i, analysis in enumerate(analysis_results):
+        #     if "iş:Noun" in analysis.format_string():
+        #         index = i
+        #     elif "açmak:Verb" in analysis.format_string() and (
+        #         (i == index + 1) or (i == index - 1)
+        #     ):
+        #         return True
+        # return False
