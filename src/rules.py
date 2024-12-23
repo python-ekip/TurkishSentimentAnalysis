@@ -10,7 +10,7 @@ class RULE():
     def __init__(self):
         self.negatif_sifatlar = set(kelimeler["negatifSifatlar"])  # Negatif sıfatları JSON'dan al
         self.negatif_fiiller = set(kelimeler["negatifFiiller"])  # Negatif fiilleri JSON'dan al
-    
+
     def tumFiilleriBul(self, analysis_results):
         """
         Cümledeki tüm fiilleri bulur.
@@ -93,19 +93,45 @@ class RULE():
                 return True
         return False
     
-    def fiilNegatif(self, analysis):
-        s = analysis if isinstance(analysis, str) else analysis.format_string()
-        if s in self.negatif_fiiller:
+    def fiilNegatif(self, single_analysis):
+        """
+        Verilen analizdeki fiilin olumsuz olup olmadığını kontrol eder.
+        Args:
+            single_analysis (SingleAnalysis, str veya list): Zemberek'in analiz sonuçlarından bir fiil analizi.
+        Returns:
+            bool: Fiil negatifse True, değilse False.
+        """
+        # Eğer single_analysis bir liste ise her bir elemanı işlememiz gerekiyor
+        if isinstance(single_analysis, list):
+            for analysis in single_analysis:
+                if self.fiilNegatif(analysis):  # Her elemanı tek tek kontrol et
+                    return True
+            return False  # Liste içinde olumsuz fiil bulunamadı
+
+        # SingleAnalysis türü için format_string al
+        analysis = single_analysis.format_string() if hasattr(single_analysis, "format_string") else single_analysis
+
+        # Fiilin kökünü al
+        verb = analysis.split(":")[0].split("[")[-1].strip()
+        # Olumsuz fiil listesinde mi kontrol et
+        if verb in self.negatif_fiiller:
+            print("Olumsuz fiil bulundu")
+            # Eğer olumsuz fiil ama aynı zamanda olumsuzluk eki varsa, pozitif kabul edilir
+            if ":Verb+Neg" in analysis or ":Unable" in analysis or ":Neg" in analysis:
+                return False
+            # Olumsuz fiil ve olumsuzluk eki yoksa, negatif kabul edilir
             return True
-        elif ":Verb+Neg" in s: 
-            return True
-        elif ":Unable" in s:
-            return True
-        elif ":Neg" in s:
-            return True
+
+        # Eğer olumsuz fiil değil ama olumsuzluk eki varsa
+        if ":Verb+Neg" in analysis or ":Unable" in analysis or ":Neg" in analysis:
+            return True  # Fiil negatif çünkü olumsuzluk eki var
+
+        # Olumsuz fiil veya olumsuzluk eki yoksa pozitif kabul edilir
         return False
+
+
     
-    def sonIkiFiilNegatif(self, analysis_results):
+    def negatifNegatifFiil(self, analysis_results):
         """
         Cümledeki son iki fiilin olumsuz olup olmadığını kontrol eder.
         Args:
@@ -118,6 +144,35 @@ class RULE():
             if self.fiilNegatif(verbs[-1]) and self.fiilNegatif(verbs[-2]):
                 return True
         return False
+
+    def negatifPozitifFiil(self, analysis_results):
+        """
+        Cümledeki sondan bir önceki fiilin olumsuz olup olmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: Sondan bir önceki fiil olumsuzsa True, değilse False.
+        """
+        verbs = self.tumFiilleriBul(analysis_results)
+        if len(verbs) >= 2:
+            if self.fiilNegatif(verbs[-2]) and not self.fiilNegatif(verbs[-1]):
+                return True
+        return False
+    
+    def pozitifNegatifFiil(self, analysis_results):
+        """
+        Cümledeki sondan bir önceki fiilin olumsuz olup olmadığını kontrol eder.
+        Args:
+            analysis_results (list): Zemberek'ten alınan analiz sonuçlarının listesi.
+        Returns:
+            bool: Sondan bir önceki fiil olumsuzsa True, değilse False.
+        """
+        verbs = self.tumFiilleriBul(analysis_results)
+        if len(verbs) >= 2:
+            if self.fiilNegatif(verbs[-1]) and not self.fiilNegatif(verbs[-2]):
+                return True
+        return False
+        
     
     def sonFiilNegatif(self, analysis_results):
         """

@@ -82,7 +82,18 @@
         "düzenbaz",
         "ceza",
         "kıskanç",
-        "sinir"
+        "sinir",
+        "şiddet",
+        "mızmız",
+        "saçma",
+        "ağrı",
+        "egoist",
+        "berbat",
+        "tenha",
+        "zifiri",
+        "korku",
+        "düşük",
+        "burukluk"
     ],
 
     "negatifFiiller": [
@@ -115,6 +126,11 @@
         "yanılmak",
         "sapmak",
         "sinirlenmek",
-        "kaybetmek"
+        "kaybetmek",
+        "tükenmek",
+        "sıkmak",
+        "germek",
+        "sıkılmak",
+        "yakmak"
     ]    
 }

@@ -8,7 +8,7 @@ morphology = TurkishMorphology.create_with_defaults()
 
 rule = rules.RULE()
 
-sentence = "Seni burada bu şekilde görmek onu sandığından daha çok üzüyor."
+sentence = "Sınavlardan istediği notları alamamış, emeklerinin karşılığını görmemiş olmanın burukluğu vardı üzerinde."
 analysis = morphology.analyze_sentence(sentence)
 after = morphology.disambiguate(sentence, analysis)
 
@@ -39,7 +39,6 @@ def classify_sentence_with_reason(sentence):
     if rule.fiilVar(analysis_results):
         fiiller = rule.tumFiilleriBul(analysis_results)
         fiil_count = len(fiiller)
-        
         if rule.hicSifativeNegatifFiilVar(sentence, analysis_results):
             return "negatif", "hiç sıfatı negatif fiil var"
 
@@ -50,8 +49,12 @@ def classify_sentence_with_reason(sentence):
                 return "negatif", "tek fiil negatif"
 
         elif fiil_count >= 2:
-            if rule.sonIkiFiilNegatif(fiiller):
+            if rule.negatifNegatifFiil(fiiller):
                 return "pozitif", "son iki fiil olumsuz"
+            elif rule.negatifPozitifFiil(fiiller):
+                return "negatif", "sondan bir önceki fiil olumsuz"
+            elif rule.pozitifNegatifFiil(fiiller):
+                return "negatif", "son fiil olumsuz önceki fiil olumlu"
             elif rule.sonFiilNegatif(fiiller):
                 return "negatif", "son fiil olumsuz"
     
@@ -60,6 +63,5 @@ def classify_sentence_with_reason(sentence):
     
     return "pozitif", "hiçbir negatif kural çalışmadı"
 
-a = classify_sentence_with_reason(sentence)
-print("------------------------------------------------------------------")
-print(a)
+s = classify_sentence_with_reason(sentence)
+print(s)

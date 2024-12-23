@@ -50,8 +50,12 @@ def classify_sentence_with_reason(sentence):
                 return "negatif", "tek fiil negatif"
 
         elif fiil_count >= 2:
-            if rule.sonIkiFiilNegatif(fiiller):
+            if rule.negatifNegatifFiil(fiiller):
                 return "pozitif", "son iki fiil olumsuz"
+            elif rule.negatifPozitifFiil(fiiller):
+                return "negatif", "sondan bir önceki fiil olumsuz"
+            elif rule.pozitifNegatifFiil(fiiller):
+                return "negatif", "son fiil olumsuz önceki fiil olumlu"
             elif rule.sonFiilNegatif(fiiller):
                 return "negatif", "son fiil olumsuz"
     
@@ -97,4 +101,4 @@ def evaluate_model_with_reasons(file_path, output_file):
 
     print(f"Sonuçlar {output_file} dosyasına kaydedildi.")
 if __name__ == "__main__":
-    evaluate_model_with_reasons("data/hoca_data.xlsx", "reports/results1.txt")
+    evaluate_model_with_reasons("data/hoca_data.xlsx", "reports/elif_results1.txt")
