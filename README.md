@@ -67,4 +67,10 @@ Bu proje, aşağıdaki kişilerin katkılarıyla şekillendi:
 - [Zehra Aktürk](https://github.com/Zehrakturk) - Raporlama
 - [Melike Badem](https://github.com/MelikeBadem) - Sunum hazırlama
 
-Teşekkürler!
+
+## Lisans
+
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
+
+
+# Teşekkürler!
