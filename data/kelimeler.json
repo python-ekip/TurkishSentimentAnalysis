@@ -70,7 +70,6 @@
         "geç",
         "pes",
         "zarar",
-        "karşı",
         "yüzüstü",
         "lezzetsiz",
         "şekersiz",
@@ -93,7 +92,14 @@
         "zifiri",
         "korku",
         "düşük",
-        "burukluk"
+        "burukluk",
+        "kaza",
+        "ölüm",
+        "hastalık",
+        "fena",
+        "eksik",
+        "ramak",
+        "hüsran"
     ],
 
     "negatifFiiller": [
@@ -131,6 +137,39 @@
         "sıkmak",
         "germek",
         "sıkılmak",
-        "yakmak"
-    ]    
+        "yakmak",
+        "üzülmek",
+        "mahvolmak",
+        "sürünmek",
+        "yorulmak",
+        "saklamak",
+        "kınamak",
+        "yormak"
+        
+    ],
+    "pozitifKaliplar": [
+        "çok şükür",
+        "şükürler olsun",
+        "harika",
+        "mükemmel",
+        "süper",
+        "yüzüm güldü",
+        "tam istediğim gibi",
+        "her şey yolunda",
+        "hayaller gerçek oldu",
+        "şanslıyız",
+        "şahane",
+        "hayran kaldım",
+        "içim huzur doldu",
+        "neyse ki"
+    ],
+
+    "negatifKaliplar": [
+        "ne yazık ki",
+        "maalesef",
+        "teki",
+        "iki yüzlü",
+        "ancak bu kadar"
+    ]
+    
 }
