@@ -1,16 +1,16 @@
 import logging
-import rules
+import kurallar
 from zemberek import TurkishMorphology
 
 # Logger ayarları
 logger = logging.getLogger(__name__)
 morphology = TurkishMorphology.create_with_defaults()
 
-rule = rules.RULE()
+kural = kurallar.KURAL()
 
 cumle = "Ne yazık ki, ben bunu yaptım"
-analysis = morphology.analyze_sentence(sentence)
-after = morphology.disambiguate(sentence, analysis)
+analysis = morphology.analyze_sentence(cumle)
+after = morphology.disambiguate(cumle, analysis)
 
 analysis_results = after.best_analysis()
 for analysis in analysis_results:
@@ -24,7 +24,7 @@ def cumleleriSiniflandir(cumle):
     Returns:
         tuple: (tahminiSinif, sebep)
     """
-    analysis = morphology.analyze_cumle(cumle)
+    analysis = morphology.analyze_sentence(cumle)
     after = morphology.disambiguate(cumle, analysis)
     analysis_results = after.best_analysis()
 
