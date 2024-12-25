@@ -63,8 +63,6 @@ def cumleleriSiniflandir(cumle):
                 return "negatif", "sondan bir önceki fiil olumsuz"
             elif kural.pozitifNegatifFiil(fiiller):
                 return "negatif", "son fiil olumsuz önceki fiil olumlu"
-            elif kural.sonFiilNegatif(fiiller):
-                return "negatif", "son fiil olumsuz"
             else:
                 for fiil in fiiller:
                     if kural.fiilNegatif(fiil):
