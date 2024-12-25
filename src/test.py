@@ -8,7 +8,7 @@ morphology = TurkishMorphology.create_with_defaults()
 
 kural = kurallar.KURAL()
 
-cumle = "Ne yazık ki, ben bunu yaptım"
+cumle = "Bazı romanların olayları fazla uzatması beni o romandan soğutuyor."
 analysis = morphology.analyze_sentence(cumle)
 after = morphology.disambiguate(cumle, analysis)
 
@@ -35,8 +35,6 @@ def cumleleriSiniflandir(cumle):
         return "negatif", "ironi kuralı"
     if kural.neNeYapisiNegatifMi(analysis_results):
         return "negatif", "ne ne yapısı negatif"
-    if kural.hayirVirgulVar(cumle):
-        return "negatif", "hayır virgül kuralı"
     if kural.yapYapabilirsenVar(cumle, analysis_results):
         return "negatif", "yap yapabilirsen kuralı"
     if kural.negatifKalipVar(cumle):
@@ -48,7 +46,7 @@ def cumleleriSiniflandir(cumle):
         fiiller = kural.tumFiilleriBul(analysis_results)
         fiil_count = len(fiiller)
         
-        if kural.hicSifativeNegatifFiilVar(cumle, analysis_results):
+        if kural.hicSifatiVeNegatifFiilVar(cumle, analysis_results):
             return "negatif", "hiç sıfatı negatif fiil var"
 
         if fiil_count == 1:

@@ -36,8 +36,6 @@ def cumleleriSiniflandir(cumle):
         return "negatif", "ironi kuralı"
     if kural.neNeYapisiNegatifMi(analizSonuclari):
         return "negatif", "ne ne yapısı negatif"
-    if kural.hayirVirgulVar(cumle):
-        return "negatif", "hayır virgül kuralı"
     if kural.yapYapabilirsenVar(cumle, analizSonuclari):
         return "negatif", "yap yapabilirsen kuralı"
     if kural.negatifKalipVar(cumle):
@@ -131,10 +129,10 @@ def modeliUygula(file_path, output_file):
             f"Yanlış Pozitif (YP): {yp}\n"
             f"Yanlış Negatif (YN): {yn}\n"
             f"Doğru Negatif (DN): {dn}\n"
-            f"Doğruluk: {dogruluk:2f} , yüzde: {dogrulukYuzdesi:2f}\n"
-            f"Kesinlik (Precision): {keskinlik:2f}\n"
-            f"Anma (Recall): {anma:2f}\n"
-            f"F1-Ölçütü: {f1_Olcusu:2f}\n"
+            f"Doğruluk: {dogruluk} , yüzde: {dogrulukYuzdesi}\n"
+            f"Kesinlik (Precision): {keskinlik}\n"
+            f"Anma (Recall): {anma}\n"
+            f"F1-Ölçütü: {f1_Olcusu}\n"
         )
 
         logger.info(summary.strip())

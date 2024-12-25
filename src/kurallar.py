@@ -128,17 +128,6 @@ class KURAL():
                 neSayaci += 1
         if neSayaci == 2 and not self.sonFiilNegatif(analizSonuclari):
             return True
-
-    def hayirVirgulVar(self, cumle):
-        if "Hayır" in cumle or "hayır" in cumle:
-            if "," in cumle:
-                return True
-        return False
-
-    def maalesefVar(self, cumle):
-        if "maalesef" in cumle or "Maalesef" in cumle:
-            return True
-        return False
     
     def negatifKalipVar(self, cumle):
         for kalip in self.negatifKaliplar:
